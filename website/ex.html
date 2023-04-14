@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <button onclick="showMessage()">Show Message</button>
+
+    <script>
+        function showMessage() {
+            var message = document.createElement("p"); // create a new p element
+            message.textContent = "This is a message!"; // set its text content
+            document.body.appendChild(message); // append it to the body element
+        }
+    </script>
+
+</body>
+
+</html>
